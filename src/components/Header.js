@@ -9,8 +9,8 @@ const Header = () => {
                 <div className='relative flex items-center justify-between'>
                     <Link
                         to='/'
-                        aria-label='proReader'
-                        title='proReader'
+                        aria-label='QuizShow'
+                        title='QuizShow'
                         className='inline-flex items-center'
                     >
                         <span className='ml-2 text-xl font-bold tracking-wide text-gray-800'>
@@ -82,7 +82,7 @@ const Header = () => {
                         </button>
                         {isMenuOpen && (
                             <div className='absolute top-0 left-0 w-full'>
-                                <div className='p-5 bg-white border rounded shadow-sm'>
+                                <div className='p-5 bg-gray-100 border rounded shadow-sm'>
                                     <div className='flex items-center justify-between mb-4'>
                                         <div>
                                             <NavLink
@@ -91,7 +91,7 @@ const Header = () => {
                                                 title='proReader'
                                                 className='inline-flex items-center'
                                             >
-                                                <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
+                                                <span className='ml-2 text-xl font-bold tracking-wide text-gray-800'>
                                                     QuizShow
                                                 </span>
                                             </NavLink>
@@ -115,34 +115,34 @@ const Header = () => {
                                     <nav>
                                         <ul className='space-y-4'>
                                             <li>
-                                                <a
-                                                    href='/'
-                                                    aria-label='Home'
-                                                    title='Home'
+                                                <NavLink
+                                                    to='/topics'
+                                                    aria-label='Topics'
+                                                    title='Topics'
                                                     className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                                 >
-                                                    Home
-                                                </a>
+                                                    Topics
+                                                </NavLink>
                                             </li>
                                             <li>
-                                                <a
-                                                    href='/books'
-                                                    aria-label='Books'
-                                                    title='Books'
+                                                <NavLink
+                                                    to='/statistics'
+                                                    aria-label='Statistics'
+                                                    title='Statistics'
                                                     className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                                 >
-                                                    Books
-                                                </a>
+                                                    Statistics
+                                                </NavLink>
                                             </li>
                                             <li>
-                                                <a
-                                                    href='/about'
-                                                    aria-label='About Us'
-                                                    title='About Us'
+                                                <NavLink
+                                                    to='/blog'
+                                                    aria-label='Blog'
+                                                    title='Blog'
                                                     className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                                 >
-                                                    About Us
-                                                </a>
+                                                    Blog
+                                                </NavLink>
                                             </li>
                                         </ul>
                                     </nav>
