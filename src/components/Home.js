@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Topics from './Topics';
 
 const Home = () => {
@@ -21,12 +22,12 @@ const Home = () => {
                         </p>
                     </div>
                     <div className='flex flex-col items-center md:flex-row'>
-                        <a
-                            href='/books'
+                        <Link
+                            to='/topics'
                             className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-emerald-400 hover:bg-emerald-700 focus:shadow-outline focus:outline-none'
                         >
-                            <span className='mr-3'>Visit Store</span>
-                        </a>
+                            <span className='mr-3'>Select Topic</span>
+                        </Link>
                     </div>
                 </div>
                 <div className='relative lg:w-1/2 '>
