@@ -28,7 +28,7 @@ const Question = ({ ques }) => {
     return (
         <div className="mt-5 max-w-2xl px-6 py-8 mx-auto space-y-8 border">
             <div className=" text-gray-900 font-semibold md:flex flex-row justify-between ">
-                <p>{question.slice(3, -4)}</p>
+                <p><span className='font-semibold text-red-600'>Ques:</span> {question.slice(3, -4)}</p>
                 <button onClick={hint}><EyeIcon className="h-5 w-5 text-gray-800 hover:text-emerald-600" /></button>
             </div>
             <div>
