@@ -7,7 +7,7 @@ const Statistics = () => {
     const topicsData = loadData.data;
 
     return (
-        <div className='px-10'>
+        <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24'>
             <h1 className='text-center text-4xl my-5 text-emerald-600 font-semibold'>Statistic Page</h1>
             <div style={{ width: '100%', height: 500 }}>
                 <ResponsiveContainer>

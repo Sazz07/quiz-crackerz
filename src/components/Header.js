@@ -25,7 +25,7 @@ const Header = () => {
                                 title='Topics'
                                 className={({ isActive }) =>
                                     isActive
-                                        ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                                        ? 'font-medium tracking-wide text-emerald-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                         : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                 }
                             >
@@ -39,7 +39,7 @@ const Header = () => {
                                 title='Statistics'
                                 className={({ isActive }) =>
                                     isActive
-                                        ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                                        ? 'font-medium tracking-wide text-emerald-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                         : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                 }
                             >
@@ -53,7 +53,7 @@ const Header = () => {
                                 title='Blog'
                                 className={({ isActive }) =>
                                     isActive
-                                        ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                                        ? 'font-medium tracking-wide text-emerald-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                         : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                 }
                             >
@@ -129,22 +129,22 @@ const Header = () => {
                                             </li>
                                             <li>
                                                 <Link
-                                                    to='/books'
-                                                    aria-label='Books'
-                                                    title='Books'
+                                                    to='/statistics'
+                                                    aria-label='Statistics'
+                                                    title='Statistics'
                                                     className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                                 >
-                                                    Books
+                                                    Statistics
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link
-                                                    to='/about'
-                                                    aria-label='About Us'
-                                                    title='About Us'
+                                                    to='/blog'
+                                                    aria-label='Blog'
+                                                    title='Blog'
                                                     className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                                 >
-                                                    About Us
+                                                    Blog
                                                 </Link>
                                             </li>
                                         </ul>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <section className="h-screen text-gray-800">
+        <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24 h-screen text-gray-800">
             <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
                 <h2 className="text-2xl font-semibold sm:text-4xl text-center mb-5">Frequently Asked Questions</h2>
                 <div className="mt-4 mb-8 space-y-4">
