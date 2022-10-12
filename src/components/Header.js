@@ -20,6 +20,20 @@ const Header = () => {
                     <ul className='flex items-center hidden space-x-8 lg:flex'>
                         <li>
                             <NavLink
+                                to='/home'
+                                aria-label='home'
+                                title='home'
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? 'font-medium tracking-wide text-emerald-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                                        : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                                }
+                            >
+                                Home
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
                                 to='/topics'
                                 aria-label='Topics'
                                 title='Topics'
