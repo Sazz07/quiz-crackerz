@@ -5,9 +5,7 @@ import { EyeIcon } from '@heroicons/react/24/solid'
 
 const Question = ({ ques }) => {
     const { question, correctAnswer } = ques;
-    // console.log(correctAnswer);
     const options = ques.options;
-    // console.log(options);
     const click = e => {
         if (correctAnswer === e.target.innerHTML) {
             return toast.success('Correct Answer !!', { autoClose: 2000 });
@@ -19,7 +17,6 @@ const Question = ({ ques }) => {
 
     const hint = () => {
         if (correctAnswer) {
-            // console.log({correctAnswer});
             return toast.success(`${correctAnswer}`, {
                 position: "top-center",
                 autoClose: 3000,
