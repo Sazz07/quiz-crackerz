@@ -11,7 +11,7 @@ const Question = ({ ques }) => {
             return toast.success('Correct Answer !!', { autoClose: 2000 });
         }
         else {
-            return toast.error('Info: Product Added!', { autoClose: 2000 });
+            return toast.error('Wrong Answer !!', { autoClose: 2000 });
         }
     }
 

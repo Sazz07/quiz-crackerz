@@ -18,7 +18,7 @@ const Home = () => {
                             <span className='inline-block text-emerald-600'>Quiz Show</span>
                         </h2>
                         <p className='text-base text-gray-700 md:text-lg'>
-                            Take some few moments and test your skill. These quiz gonna help you to test your skill. We have some very important question about some very important subject.
+                            Take some few moments and test your skill. This quiz gonna help you to test your skill. We have some very important question about some very important subject.
                         </p>
                     </div>
                     <div className='flex flex-col items-center md:flex-row'>
